@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 回归素材的运行产物（gen_fixtures.ps1 生成 audio/，make_subtitles.py 写 out/）
+examples/audio/
+examples/out/
+
+# 跑字幕时的中间产物
+*.raw.json
